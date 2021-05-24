@@ -1,0 +1,91 @@
+{
+  "RunType": "HTTP",
+  "Labels": "152.66.211.2:30000/to-backend? , dipterv1",
+  "StartTime": "2021-05-24T14:37:30.193682805+02:00",
+  "RequestedQPS": "30",
+  "RequestedDuration": "3m0s",
+  "ActualQPS": 0.4985139399540491,
+  "ActualDuration": 180536576386,
+  "NumThreads": 1,
+  "Version": "1.14.2",
+  "DurationHistogram": {
+    "Count": 90,
+    "Min": 2.003292839,
+    "Max": 2.012207468,
+    "Sum": 180.41952345199996,
+    "Avg": 2.0046613716888886,
+    "StdDev": 0.0013088751119313235,
+    "Data": [
+      {
+        "Start": 2.003292839,
+        "End": 2.012207468,
+        "Percent": 100,
+        "Count": 90
+      }
+    ],
+    "Percentiles": [
+      {
+        "Percentile": 50,
+        "Value": 2.007700071314607
+      },
+      {
+        "Percentile": 75,
+        "Value": 2.0099537696573035
+      },
+      {
+        "Percentile": 90,
+        "Value": 2.0113059886629214
+      },
+      {
+        "Percentile": 99,
+        "Value": 2.0121173200662925
+      },
+      {
+        "Percentile": 99.9,
+        "Value": 2.0121984532066293
+      }
+    ]
+  },
+  "Exactly": 0,
+  "Jitter": true,
+  "RetCodes": {
+    "200": 90
+  },
+  "Sizes": {
+    "Count": 90,
+    "Min": 551,
+    "Max": 553,
+    "Sum": 49758,
+    "Avg": 552.8666666666667,
+    "StdDev": 0.37118429083303206,
+    "Data": [
+      {
+        "Start": 551,
+        "End": 553,
+        "Percent": 100,
+        "Count": 90
+      }
+    ],
+    "Percentiles": null
+  },
+  "HeaderSizes": {
+    "Count": 90,
+    "Min": 109,
+    "Max": 109,
+    "Sum": 9810,
+    "Avg": 109,
+    "StdDev": 0,
+    "Data": [
+      {
+        "Start": 109,
+        "End": 109,
+        "Percent": 100,
+        "Count": 90
+      }
+    ],
+    "Percentiles": null
+  },
+  "URL": "http://152.66.211.2:30000/to-backend?",
+  "SocketCount": 1,
+  "AbortOn": 0
+}
