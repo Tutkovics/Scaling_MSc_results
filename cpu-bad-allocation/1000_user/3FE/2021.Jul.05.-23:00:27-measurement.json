@@ -1,0 +1,1248 @@
+{
+    "prometheus": {
+        "cpu": {
+            "status": "success",
+            "data": {
+                "resultType": "matrix",
+                "result": [
+                    {
+                        "metric": {
+                            "__name__": "container_cpu_usage_seconds_total",
+                            "container": "back-end",
+                            "cpu": "total",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/pod9fe2b644-347c-4651-ae66-ba433809c211/3768c7576e8066fc17503311ea14367b5832bc30d3434f5ddd2394d36fac7fcd",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.3:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_back-end_back-end-66d5f989c4-g49xm_default_9fe2b644-347c-4651-ae66-ba433809c211_4",
+                            "namespace": "default",
+                            "node": "dipterv3",
+                            "pod": "back-end-66d5f989c4-g49xm",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "8.836411554"
+                            ],
+                            [
+                                1625525991.406,
+                                "8.836411554"
+                            ],
+                            [
+                                1625525993.406,
+                                "8.836411554"
+                            ],
+                            [
+                                1625525995.406,
+                                "8.836411554"
+                            ],
+                            [
+                                1625525997.406,
+                                "8.836411554"
+                            ]
+                        ]
+                    },
+                    {
+                        "metric": {
+                            "__name__": "container_cpu_usage_seconds_total",
+                            "container": "back-end",
+                            "cpu": "total",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/pod9fe2b644-347c-4651-ae66-ba433809c211/77424d5dbfe63c803e3fe3ccc31f2d1c62eb6915e050d57b93d51303d699fd86",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.3:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_back-end_back-end-66d5f989c4-g49xm_default_9fe2b644-347c-4651-ae66-ba433809c211_5",
+                            "namespace": "default",
+                            "node": "dipterv3",
+                            "pod": "back-end-66d5f989c4-g49xm",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "0.048382388"
+                            ],
+                            [
+                                1625525991.406,
+                                "0.048382388"
+                            ],
+                            [
+                                1625525993.406,
+                                "0.048382388"
+                            ],
+                            [
+                                1625525995.406,
+                                "0.048382388"
+                            ],
+                            [
+                                1625525997.406,
+                                "0.048382388"
+                            ]
+                        ]
+                    },
+                    {
+                        "metric": {
+                            "__name__": "container_cpu_usage_seconds_total",
+                            "container": "back-end",
+                            "cpu": "total",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/pod9fe2b644-347c-4651-ae66-ba433809c211/a00e41cbdd537e3639f89f2e3c3dda59b0b13f683cac505f2c6b147f6fa93048",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.3:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_back-end_back-end-66d5f989c4-g49xm_default_9fe2b644-347c-4651-ae66-ba433809c211_3",
+                            "namespace": "default",
+                            "node": "dipterv3",
+                            "pod": "back-end-66d5f989c4-g49xm",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "5.102890014"
+                            ],
+                            [
+                                1625525991.406,
+                                "5.102890014"
+                            ],
+                            [
+                                1625525993.406,
+                                "5.102890014"
+                            ],
+                            [
+                                1625525995.406,
+                                "5.102890014"
+                            ],
+                            [
+                                1625525997.406,
+                                "5.102890014"
+                            ]
+                        ]
+                    },
+                    {
+                        "metric": {
+                            "__name__": "container_cpu_usage_seconds_total",
+                            "container": "front-end",
+                            "cpu": "total",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/pod089f3c7a-8255-4f63-8dae-6e6f0840eb91/58d2f81cd2f19b5edf92109fd84edd91c991cc7ef5ae414e85265377194502db",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.3:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_front-end_front-end-59c45f55d6-xs769_default_089f3c7a-8255-4f63-8dae-6e6f0840eb91_1",
+                            "namespace": "default",
+                            "node": "dipterv3",
+                            "pod": "front-end-59c45f55d6-xs769",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "35.467223908"
+                            ],
+                            [
+                                1625525991.406,
+                                "35.467223908"
+                            ],
+                            [
+                                1625525993.406,
+                                "35.467223908"
+                            ],
+                            [
+                                1625525995.406,
+                                "35.467223908"
+                            ],
+                            [
+                                1625525997.406,
+                                "35.467223908"
+                            ]
+                        ]
+                    },
+                    {
+                        "metric": {
+                            "__name__": "container_cpu_usage_seconds_total",
+                            "container": "front-end",
+                            "cpu": "total",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/pod089f3c7a-8255-4f63-8dae-6e6f0840eb91/e3aba37768a6f05ca2a4911a5b3871c90092fd27a81dfeabba0c1a823a788df3",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.3:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_front-end_front-end-59c45f55d6-xs769_default_089f3c7a-8255-4f63-8dae-6e6f0840eb91_0",
+                            "namespace": "default",
+                            "node": "dipterv3",
+                            "pod": "front-end-59c45f55d6-xs769",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "42.600690471"
+                            ],
+                            [
+                                1625525991.406,
+                                "42.600690471"
+                            ],
+                            [
+                                1625525993.406,
+                                "42.600690471"
+                            ],
+                            [
+                                1625525995.406,
+                                "42.600690471"
+                            ],
+                            [
+                                1625525997.406,
+                                "42.600690471"
+                            ]
+                        ]
+                    },
+                    {
+                        "metric": {
+                            "__name__": "container_cpu_usage_seconds_total",
+                            "container": "front-end",
+                            "cpu": "total",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/pod31c4b255-07fc-4f76-b08a-7ed05a713bfe/3ca9ad31e9c1b56fb4268b4a12064a405844954c8a725ab62d1c624445194925",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.3:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_front-end_front-end-59c45f55d6-xg5dd_default_31c4b255-07fc-4f76-b08a-7ed05a713bfe_0",
+                            "namespace": "default",
+                            "node": "dipterv3",
+                            "pod": "front-end-59c45f55d6-xg5dd",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "0.051560445"
+                            ],
+                            [
+                                1625525991.406,
+                                "0.051560445"
+                            ],
+                            [
+                                1625525993.406,
+                                "0.051560445"
+                            ],
+                            [
+                                1625525995.406,
+                                "0.051560445"
+                            ],
+                            [
+                                1625525997.406,
+                                "0.051560445"
+                            ]
+                        ]
+                    },
+                    {
+                        "metric": {
+                            "__name__": "container_cpu_usage_seconds_total",
+                            "container": "front-end",
+                            "cpu": "total",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/pod33db1601-9918-4515-9785-5ccd5199c207/b4b94caffb76688c925ffcc21cbf2aac0906c0b62e2fc3245de114a036fd6123",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.2:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_front-end_front-end-59c45f55d6-ckll5_default_33db1601-9918-4515-9785-5ccd5199c207_0",
+                            "namespace": "default",
+                            "node": "dipterv2",
+                            "pod": "front-end-59c45f55d6-ckll5",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "0.053574895"
+                            ],
+                            [
+                                1625525991.406,
+                                "0.053574895"
+                            ],
+                            [
+                                1625525993.406,
+                                "0.053574895"
+                            ],
+                            [
+                                1625525995.406,
+                                "0.053574895"
+                            ],
+                            [
+                                1625525997.406,
+                                "0.053574895"
+                            ]
+                        ]
+                    },
+                    {
+                        "metric": {
+                            "__name__": "container_cpu_usage_seconds_total",
+                            "container": "front-end",
+                            "cpu": "total",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/pod8c49f8e5-b18e-47cc-a87e-81cd85b52d7b/f62bf4d33f2b30e5221da918945a80dac930574eca8f70599456f933beda1729",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.3:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_front-end_front-end-59c45f55d6-qrwdp_default_8c49f8e5-b18e-47cc-a87e-81cd85b52d7b_0",
+                            "namespace": "default",
+                            "node": "dipterv3",
+                            "pod": "front-end-59c45f55d6-qrwdp",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "0.053571734"
+                            ],
+                            [
+                                1625525991.406,
+                                "0.053571734"
+                            ],
+                            [
+                                1625525993.406,
+                                "0.053571734"
+                            ],
+                            [
+                                1625525995.406,
+                                "0.053571734"
+                            ],
+                            [
+                                1625525997.406,
+                                "0.053571734"
+                            ]
+                        ]
+                    },
+                    {
+                        "metric": {
+                            "__name__": "container_cpu_usage_seconds_total",
+                            "container": "front-end",
+                            "cpu": "total",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/podbb3f1b72-539e-42a0-b514-c0e791684bee/51b0ad68969f6f683f989b602b4ed4f299cbe5f606c53c9e8086f0b0c93ef38d",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.2:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_front-end_front-end-59c45f55d6-sctx8_default_bb3f1b72-539e-42a0-b514-c0e791684bee_0",
+                            "namespace": "default",
+                            "node": "dipterv2",
+                            "pod": "front-end-59c45f55d6-sctx8",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "74.016005416"
+                            ],
+                            [
+                                1625525991.406,
+                                "74.016005416"
+                            ],
+                            [
+                                1625525993.406,
+                                "74.016005416"
+                            ],
+                            [
+                                1625525995.406,
+                                "74.016005416"
+                            ],
+                            [
+                                1625525997.406,
+                                "74.016005416"
+                            ]
+                        ]
+                    },
+                    {
+                        "metric": {
+                            "__name__": "container_cpu_usage_seconds_total",
+                            "container": "front-end",
+                            "cpu": "total",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/podbb3f1b72-539e-42a0-b514-c0e791684bee/ad0bb17c1d5fb62bcad50be4ac9c4e8cc20ad39d29e4973a633726c8ffe8f71c",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.2:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_front-end_front-end-59c45f55d6-sctx8_default_bb3f1b72-539e-42a0-b514-c0e791684bee_1",
+                            "namespace": "default",
+                            "node": "dipterv2",
+                            "pod": "front-end-59c45f55d6-sctx8",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "50.490000027"
+                            ],
+                            [
+                                1625525991.406,
+                                "50.490000027"
+                            ],
+                            [
+                                1625525993.406,
+                                "50.490000027"
+                            ],
+                            [
+                                1625525995.406,
+                                "50.490000027"
+                            ],
+                            [
+                                1625525997.406,
+                                "50.490000027"
+                            ]
+                        ]
+                    },
+                    {
+                        "metric": {
+                            "__name__": "container_cpu_usage_seconds_total",
+                            "container": "front-end",
+                            "cpu": "total",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/podd3b28d50-48fc-4840-bd15-9278305953b2/79c48338d2c7e01160e4fe9248f32356e6d2d952e356902ab8fa4170427d1696",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.3:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_front-end_front-end-59c45f55d6-d5x2z_default_d3b28d50-48fc-4840-bd15-9278305953b2_0",
+                            "namespace": "default",
+                            "node": "dipterv3",
+                            "pod": "front-end-59c45f55d6-d5x2z",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "50.534550299"
+                            ],
+                            [
+                                1625525991.406,
+                                "50.534550299"
+                            ],
+                            [
+                                1625525993.406,
+                                "50.534550299"
+                            ],
+                            [
+                                1625525995.406,
+                                "50.534550299"
+                            ],
+                            [
+                                1625525997.406,
+                                "50.534550299"
+                            ]
+                        ]
+                    },
+                    {
+                        "metric": {
+                            "__name__": "container_cpu_usage_seconds_total",
+                            "container": "front-end",
+                            "cpu": "total",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/podd3b28d50-48fc-4840-bd15-9278305953b2/e42b770f827efbf0d3e4b7c2ce1fee8d3df9a1340598461c2d5518924568015b",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.3:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_front-end_front-end-59c45f55d6-d5x2z_default_d3b28d50-48fc-4840-bd15-9278305953b2_1",
+                            "namespace": "default",
+                            "node": "dipterv3",
+                            "pod": "front-end-59c45f55d6-d5x2z",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "28.135285147"
+                            ],
+                            [
+                                1625525991.406,
+                                "28.135285147"
+                            ],
+                            [
+                                1625525993.406,
+                                "28.135285147"
+                            ],
+                            [
+                                1625525995.406,
+                                "28.135285147"
+                            ],
+                            [
+                                1625525997.406,
+                                "28.135285147"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        },
+        "memory": {
+            "status": "success",
+            "data": {
+                "resultType": "matrix",
+                "result": [
+                    {
+                        "metric": {
+                            "__name__": "container_memory_usage_bytes",
+                            "container": "back-end",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/pod9fe2b644-347c-4651-ae66-ba433809c211/3768c7576e8066fc17503311ea14367b5832bc30d3434f5ddd2394d36fac7fcd",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.3:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_back-end_back-end-66d5f989c4-g49xm_default_9fe2b644-347c-4651-ae66-ba433809c211_4",
+                            "namespace": "default",
+                            "node": "dipterv3",
+                            "pod": "back-end-66d5f989c4-g49xm",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "223186944"
+                            ],
+                            [
+                                1625525991.406,
+                                "223186944"
+                            ],
+                            [
+                                1625525993.406,
+                                "223186944"
+                            ],
+                            [
+                                1625525995.406,
+                                "223186944"
+                            ],
+                            [
+                                1625525997.406,
+                                "223186944"
+                            ]
+                        ]
+                    },
+                    {
+                        "metric": {
+                            "__name__": "container_memory_usage_bytes",
+                            "container": "back-end",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/pod9fe2b644-347c-4651-ae66-ba433809c211/77424d5dbfe63c803e3fe3ccc31f2d1c62eb6915e050d57b93d51303d699fd86",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.3:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_back-end_back-end-66d5f989c4-g49xm_default_9fe2b644-347c-4651-ae66-ba433809c211_5",
+                            "namespace": "default",
+                            "node": "dipterv3",
+                            "pod": "back-end-66d5f989c4-g49xm",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "2498560"
+                            ],
+                            [
+                                1625525991.406,
+                                "2498560"
+                            ],
+                            [
+                                1625525993.406,
+                                "2498560"
+                            ],
+                            [
+                                1625525995.406,
+                                "2498560"
+                            ],
+                            [
+                                1625525997.406,
+                                "2498560"
+                            ]
+                        ]
+                    },
+                    {
+                        "metric": {
+                            "__name__": "container_memory_usage_bytes",
+                            "container": "back-end",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/pod9fe2b644-347c-4651-ae66-ba433809c211/a00e41cbdd537e3639f89f2e3c3dda59b0b13f683cac505f2c6b147f6fa93048",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.3:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_back-end_back-end-66d5f989c4-g49xm_default_9fe2b644-347c-4651-ae66-ba433809c211_3",
+                            "namespace": "default",
+                            "node": "dipterv3",
+                            "pod": "back-end-66d5f989c4-g49xm",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "227094528"
+                            ],
+                            [
+                                1625525991.406,
+                                "227094528"
+                            ],
+                            [
+                                1625525993.406,
+                                "227094528"
+                            ],
+                            [
+                                1625525995.406,
+                                "227094528"
+                            ],
+                            [
+                                1625525997.406,
+                                "227094528"
+                            ]
+                        ]
+                    },
+                    {
+                        "metric": {
+                            "__name__": "container_memory_usage_bytes",
+                            "container": "front-end",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/pod089f3c7a-8255-4f63-8dae-6e6f0840eb91/58d2f81cd2f19b5edf92109fd84edd91c991cc7ef5ae414e85265377194502db",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.3:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_front-end_front-end-59c45f55d6-xs769_default_089f3c7a-8255-4f63-8dae-6e6f0840eb91_1",
+                            "namespace": "default",
+                            "node": "dipterv3",
+                            "pod": "front-end-59c45f55d6-xs769",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "493453312"
+                            ],
+                            [
+                                1625525991.406,
+                                "493453312"
+                            ],
+                            [
+                                1625525993.406,
+                                "493453312"
+                            ],
+                            [
+                                1625525995.406,
+                                "493453312"
+                            ],
+                            [
+                                1625525997.406,
+                                "493453312"
+                            ]
+                        ]
+                    },
+                    {
+                        "metric": {
+                            "__name__": "container_memory_usage_bytes",
+                            "container": "front-end",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/pod089f3c7a-8255-4f63-8dae-6e6f0840eb91/e3aba37768a6f05ca2a4911a5b3871c90092fd27a81dfeabba0c1a823a788df3",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.3:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_front-end_front-end-59c45f55d6-xs769_default_089f3c7a-8255-4f63-8dae-6e6f0840eb91_0",
+                            "namespace": "default",
+                            "node": "dipterv3",
+                            "pod": "front-end-59c45f55d6-xs769",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "397352960"
+                            ],
+                            [
+                                1625525991.406,
+                                "397352960"
+                            ],
+                            [
+                                1625525993.406,
+                                "397352960"
+                            ],
+                            [
+                                1625525995.406,
+                                "397352960"
+                            ],
+                            [
+                                1625525997.406,
+                                "397352960"
+                            ]
+                        ]
+                    },
+                    {
+                        "metric": {
+                            "__name__": "container_memory_usage_bytes",
+                            "container": "front-end",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/pod31c4b255-07fc-4f76-b08a-7ed05a713bfe/3ca9ad31e9c1b56fb4268b4a12064a405844954c8a725ab62d1c624445194925",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.3:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_front-end_front-end-59c45f55d6-xg5dd_default_31c4b255-07fc-4f76-b08a-7ed05a713bfe_0",
+                            "namespace": "default",
+                            "node": "dipterv3",
+                            "pod": "front-end-59c45f55d6-xg5dd",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "5881856"
+                            ],
+                            [
+                                1625525991.406,
+                                "5881856"
+                            ],
+                            [
+                                1625525993.406,
+                                "5881856"
+                            ],
+                            [
+                                1625525995.406,
+                                "5881856"
+                            ],
+                            [
+                                1625525997.406,
+                                "5881856"
+                            ]
+                        ]
+                    },
+                    {
+                        "metric": {
+                            "__name__": "container_memory_usage_bytes",
+                            "container": "front-end",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/pod33db1601-9918-4515-9785-5ccd5199c207/b4b94caffb76688c925ffcc21cbf2aac0906c0b62e2fc3245de114a036fd6123",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.2:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_front-end_front-end-59c45f55d6-ckll5_default_33db1601-9918-4515-9785-5ccd5199c207_0",
+                            "namespace": "default",
+                            "node": "dipterv2",
+                            "pod": "front-end-59c45f55d6-ckll5",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "946176"
+                            ],
+                            [
+                                1625525991.406,
+                                "946176"
+                            ],
+                            [
+                                1625525993.406,
+                                "946176"
+                            ],
+                            [
+                                1625525995.406,
+                                "946176"
+                            ],
+                            [
+                                1625525997.406,
+                                "946176"
+                            ]
+                        ]
+                    },
+                    {
+                        "metric": {
+                            "__name__": "container_memory_usage_bytes",
+                            "container": "front-end",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/pod8c49f8e5-b18e-47cc-a87e-81cd85b52d7b/f62bf4d33f2b30e5221da918945a80dac930574eca8f70599456f933beda1729",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.3:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_front-end_front-end-59c45f55d6-qrwdp_default_8c49f8e5-b18e-47cc-a87e-81cd85b52d7b_0",
+                            "namespace": "default",
+                            "node": "dipterv3",
+                            "pod": "front-end-59c45f55d6-qrwdp",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "7839744"
+                            ],
+                            [
+                                1625525991.406,
+                                "7839744"
+                            ],
+                            [
+                                1625525993.406,
+                                "7839744"
+                            ],
+                            [
+                                1625525995.406,
+                                "7839744"
+                            ],
+                            [
+                                1625525997.406,
+                                "7839744"
+                            ]
+                        ]
+                    },
+                    {
+                        "metric": {
+                            "__name__": "container_memory_usage_bytes",
+                            "container": "front-end",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/podbb3f1b72-539e-42a0-b514-c0e791684bee/51b0ad68969f6f683f989b602b4ed4f299cbe5f606c53c9e8086f0b0c93ef38d",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.2:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_front-end_front-end-59c45f55d6-sctx8_default_bb3f1b72-539e-42a0-b514-c0e791684bee_0",
+                            "namespace": "default",
+                            "node": "dipterv2",
+                            "pod": "front-end-59c45f55d6-sctx8",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "453771264"
+                            ],
+                            [
+                                1625525991.406,
+                                "453771264"
+                            ],
+                            [
+                                1625525993.406,
+                                "453771264"
+                            ],
+                            [
+                                1625525995.406,
+                                "453771264"
+                            ],
+                            [
+                                1625525997.406,
+                                "453771264"
+                            ]
+                        ]
+                    },
+                    {
+                        "metric": {
+                            "__name__": "container_memory_usage_bytes",
+                            "container": "front-end",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/podbb3f1b72-539e-42a0-b514-c0e791684bee/ad0bb17c1d5fb62bcad50be4ac9c4e8cc20ad39d29e4973a633726c8ffe8f71c",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.2:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_front-end_front-end-59c45f55d6-sctx8_default_bb3f1b72-539e-42a0-b514-c0e791684bee_1",
+                            "namespace": "default",
+                            "node": "dipterv2",
+                            "pod": "front-end-59c45f55d6-sctx8",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "512700416"
+                            ],
+                            [
+                                1625525991.406,
+                                "512700416"
+                            ],
+                            [
+                                1625525993.406,
+                                "512700416"
+                            ],
+                            [
+                                1625525995.406,
+                                "512700416"
+                            ],
+                            [
+                                1625525997.406,
+                                "512700416"
+                            ]
+                        ]
+                    },
+                    {
+                        "metric": {
+                            "__name__": "container_memory_usage_bytes",
+                            "container": "front-end",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/podd3b28d50-48fc-4840-bd15-9278305953b2/79c48338d2c7e01160e4fe9248f32356e6d2d952e356902ab8fa4170427d1696",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.3:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_front-end_front-end-59c45f55d6-d5x2z_default_d3b28d50-48fc-4840-bd15-9278305953b2_0",
+                            "namespace": "default",
+                            "node": "dipterv3",
+                            "pod": "front-end-59c45f55d6-d5x2z",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "511488000"
+                            ],
+                            [
+                                1625525991.406,
+                                "511488000"
+                            ],
+                            [
+                                1625525993.406,
+                                "511488000"
+                            ],
+                            [
+                                1625525995.406,
+                                "511488000"
+                            ],
+                            [
+                                1625525997.406,
+                                "511488000"
+                            ]
+                        ]
+                    },
+                    {
+                        "metric": {
+                            "__name__": "container_memory_usage_bytes",
+                            "container": "front-end",
+                            "endpoint": "https-metrics",
+                            "id": "/kubepods/podd3b28d50-48fc-4840-bd15-9278305953b2/e42b770f827efbf0d3e4b7c2ce1fee8d3df9a1340598461c2d5518924568015b",
+                            "image": "sha256:57a3cc06fac8e9499e1c9e41892c069a2b930c386887229cf23eb86ee94f0639",
+                            "instance": "10.151.103.3:10250",
+                            "job": "kubelet",
+                            "metrics_path": "/metrics/cadvisor",
+                            "name": "k8s_front-end_front-end-59c45f55d6-d5x2z_default_d3b28d50-48fc-4840-bd15-9278305953b2_1",
+                            "namespace": "default",
+                            "node": "dipterv3",
+                            "pod": "front-end-59c45f55d6-d5x2z",
+                            "service": "prometheus-stack-kube-prom-kubelet"
+                        },
+                        "values": [
+                            [
+                                1625525989.406,
+                                "494374912"
+                            ],
+                            [
+                                1625525991.406,
+                                "494374912"
+                            ],
+                            [
+                                1625525993.406,
+                                "494374912"
+                            ],
+                            [
+                                1625525995.406,
+                                "494374912"
+                            ],
+                            [
+                                1625525997.406,
+                                "494374912"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        },
+        "running_pods": {
+            "status": "success",
+            "data": {
+                "resultType": "matrix",
+                "result": []
+            }
+        },
+        "number_of_pods": {
+            "status": "success",
+            "data": {
+                "resultType": "matrix",
+                "result": []
+            }
+        }
+    },
+    "config": {
+        "benchmark_name": "Develop-measurement",
+        "cluster_name": "Dipterv",
+        "cluster_ip": "152.66.211.2",
+        "servicegraphs": [
+            "/home/tutkovics/Scaling_MSc/yaml/cpu-bad-allocation/bad-allocation-1FE.yaml",
+            "/home/tutkovics/Scaling_MSc/yaml/cpu-bad-allocation/bad-allocation-2FE.yaml",
+            "/home/tutkovics/Scaling_MSc/yaml/cpu-bad-allocation/bad-allocation-3FE.yaml"
+        ],
+        "result_location": "../results/cpu-bad-allocation",
+        "qps_from": 0,
+        "qps_to": 500,
+        "qps_granularity": 10,
+        "load_preheat": 0,
+        "load_time": 300,
+        "load_users": 1000,
+        "load_ip": "152.66.211.2",
+        "load_timeout": 1000,
+        "load_port": 30000,
+        "load_path": "to-backend",
+        "load_query": "",
+        "prometheus_ip": "152.66.211.2",
+        "prometheus_port": 31090
+    },
+    "fortio": {
+        "RunType": "HTTP",
+        "Labels": "152.66.211.2:30000/to-backend? , dipterv1",
+        "StartTime": "2021-07-06T00:53:20.755997082+02:00",
+        "RequestedQPS": "280",
+        "RequestedDuration": "5m0s",
+        "ActualQPS": 278.0345388495916,
+        "ActualDuration": 302120737760,
+        "NumThreads": 1000,
+        "Version": "1.14.2",
+        "DurationHistogram": {
+            "Count": 84000,
+            "Min": 0.016466663,
+            "Max": 31.647869572,
+            "Sum": 104963.32782983808,
+            "Avg": 1.2495634265456914,
+            "StdDev": 2.5461794112619534,
+            "Data": [
+                {
+                    "Start": 0.016466663,
+                    "End": 0.018000000000000002,
+                    "Percent": 0.002380952380952381,
+                    "Count": 2
+                },
+                {
+                    "Start": 0.025,
+                    "End": 0.03,
+                    "Percent": 0.0035714285714285713,
+                    "Count": 1
+                },
+                {
+                    "Start": 0.03,
+                    "End": 0.035,
+                    "Percent": 0.004761904761904762,
+                    "Count": 1
+                },
+                {
+                    "Start": 0.06,
+                    "End": 0.07,
+                    "Percent": 0.005952380952380952,
+                    "Count": 1
+                },
+                {
+                    "Start": 0.09,
+                    "End": 0.1,
+                    "Percent": 0.02261904761904762,
+                    "Count": 14
+                },
+                {
+                    "Start": 0.1,
+                    "End": 0.12,
+                    "Percent": 0.03571428571428571,
+                    "Count": 11
+                },
+                {
+                    "Start": 0.12,
+                    "End": 0.14,
+                    "Percent": 0.04642857142857143,
+                    "Count": 9
+                },
+                {
+                    "Start": 0.14,
+                    "End": 0.16,
+                    "Percent": 0.06547619047619048,
+                    "Count": 16
+                },
+                {
+                    "Start": 0.16,
+                    "End": 0.18,
+                    "Percent": 0.07738095238095238,
+                    "Count": 10
+                },
+                {
+                    "Start": 0.18,
+                    "End": 0.2,
+                    "Percent": 0.09642857142857143,
+                    "Count": 16
+                },
+                {
+                    "Start": 0.2,
+                    "End": 0.25,
+                    "Percent": 0.15,
+                    "Count": 45
+                },
+                {
+                    "Start": 0.25,
+                    "End": 0.3,
+                    "Percent": 0.19166666666666668,
+                    "Count": 35
+                },
+                {
+                    "Start": 0.3,
+                    "End": 0.35000000000000003,
+                    "Percent": 0.20833333333333334,
+                    "Count": 14
+                },
+                {
+                    "Start": 0.35000000000000003,
+                    "End": 0.4,
+                    "Percent": 0.24166666666666667,
+                    "Count": 28
+                },
+                {
+                    "Start": 0.4,
+                    "End": 0.45,
+                    "Percent": 0.3047619047619048,
+                    "Count": 53
+                },
+                {
+                    "Start": 0.45,
+                    "End": 0.5,
+                    "Percent": 0.3726190476190476,
+                    "Count": 57
+                },
+                {
+                    "Start": 0.5,
+                    "End": 0.6,
+                    "Percent": 0.5892857142857143,
+                    "Count": 182
+                },
+                {
+                    "Start": 0.6,
+                    "End": 0.7000000000000001,
+                    "Percent": 0.8428571428571429,
+                    "Count": 213
+                },
+                {
+                    "Start": 0.7000000000000001,
+                    "End": 0.8,
+                    "Percent": 1.0964285714285715,
+                    "Count": 213
+                },
+                {
+                    "Start": 0.8,
+                    "End": 0.9,
+                    "Percent": 1.3178571428571428,
+                    "Count": 186
+                },
+                {
+                    "Start": 0.9,
+                    "End": 1,
+                    "Percent": 1.7452380952380953,
+                    "Count": 359
+                },
+                {
+                    "Start": 1,
+                    "End": 2,
+                    "Percent": 96.21309523809524,
+                    "Count": 79353
+                },
+                {
+                    "Start": 2,
+                    "End": 3,
+                    "Percent": 99.30119047619047,
+                    "Count": 2594
+                },
+                {
+                    "Start": 30,
+                    "End": 31.647869572,
+                    "Percent": 100,
+                    "Count": 587
+                }
+            ],
+            "Percentiles": [
+                {
+                    "Percentile": 50,
+                    "Value": 1.5108061446952226
+                },
+                {
+                    "Percentile": 75,
+                    "Value": 1.7754464229455724
+                },
+                {
+                    "Percentile": 90,
+                    "Value": 1.9342305898957821
+                },
+                {
+                    "Percentile": 99,
+                    "Value": 2.902467232074019
+                },
+                {
+                    "Percentile": 99.9,
+                    "Value": 31.412058594064753
+                }
+            ]
+        },
+        "Exactly": 0,
+        "Jitter": true,
+        "RetCodes": {
+            "-1": 82575,
+            "200": 1425
+        },
+        "Sizes": {
+            "Count": 84000,
+            "Min": 0,
+            "Max": 551,
+            "Sum": 784967,
+            "Avg": 9.344845238095239,
+            "StdDev": 71.13594278261367,
+            "Data": [
+                {
+                    "Start": 0,
+                    "End": 0,
+                    "Percent": 98.30357142857143,
+                    "Count": 82575
+                },
+                {
+                    "Start": 500,
+                    "End": 551,
+                    "Percent": 100,
+                    "Count": 1425
+                }
+            ],
+            "Percentiles": null
+        },
+        "HeaderSizes": {
+            "Count": 84000,
+            "Min": 0,
+            "Max": 109,
+            "Sum": 155325,
+            "Avg": 1.8491071428571428,
+            "StdDev": 14.075989533445357,
+            "Data": [
+                {
+                    "Start": 0,
+                    "End": 0,
+                    "Percent": 98.30357142857143,
+                    "Count": 82575
+                },
+                {
+                    "Start": 100,
+                    "End": 109,
+                    "Percent": 100,
+                    "Count": 1425
+                }
+            ],
+            "Percentiles": null
+        },
+        "URL": "http://152.66.211.2:30000/to-backend?",
+        "SocketCount": 84867,
+        "AbortOn": 0
+    }
+}
